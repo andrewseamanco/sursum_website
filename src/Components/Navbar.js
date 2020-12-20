@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 import "./Navbar.css";
 
 import { FaAlignRight } from "react-icons/fa";
-import sursumLogo from '../images/sursumShield.png'
+import sursumLogo from "../images/sursumShield.png";
 
 function Navbar(props) {
   const [expanded, setExpanded] = useState(false);
@@ -32,9 +32,10 @@ function Navbar(props) {
               </a>
             </li>
           </ul>
-        </div> {/*End navbar*/}
-      </div> {/* End header*/ }
-
+        </div>{" "}
+        {/*End navbar*/}
+      </div>{" "}
+      {/* End header*/}
       <div className="Spacer">{/* Spacing */}</div>
     </div>
   );
