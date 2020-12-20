@@ -1,43 +1,33 @@
-import React, { Component } from 'react'
+import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import './slickdemo.css';
+import './ImageSlider.css';
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    centerMode: true,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  }
+const settings = {
+  dots: true,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 6000,
+  speed: 800,
+  slidesToShow: 2,
+  slidesToScroll: 1
+};
 
-export default function SlickDemo() {
+export default function ImageSlider() {
   return (
-          <div>
-            <div class='container' >
-              <div className="row title" style={{marginBottom: "20px"}} >
-                <div class="col-sm-12 btn btn-info">
-                    Slick Carousel In React Application
-                </div>
-              </div>
-            </div>
+          <div className="sliderContainer">
             <Slider {...settings} >
               <div className="wdt">
-                <img  className="img" src= {'images/carouselOne.jpg'} className="img"/>
+                <img  src= {'assets/carouselOne.jpg'} className="img" alt="Surusm retreat 2019"/>
               </div>
               <div className="wdt">
-                <img style={{"height":"40px"}}   src= {'images/carouselTwo.jpg'} className="img"/>
+                <img src= {'assets/carouselTwo.jpg'} className="img" alt="Sursum littles gathered around Loyola Marymount's dedicated Sursum tree"/>
               </div>
               <div className="wdt">
-                <img  className="img" src= {'images/carouselThree.jpg'} className="img"/>
+                <img src= {'assets/carouselThree.jpg'} className="img" alt="Sursum members serving at St. Francis"/>
               </div>
             </Slider>
         </div>
-        );
-      }
-    }
-
-export default SlickDemo
+      );
 }

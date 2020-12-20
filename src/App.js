@@ -1,10 +1,11 @@
 import React from 'react'
+import ImageSlider from './Components/ImageSlider'
 import './App.css';
 
 function App() {
   return (
-    <div>
-    <p>Working right</p>
+    <div className="app">
+      <ImageSlider />
     </div>
   );
 }
