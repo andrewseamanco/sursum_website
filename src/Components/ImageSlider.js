@@ -25,24 +25,15 @@ export default function SlickDemo() {
             </div>
             <Slider {...settings} >
               <div className="wdt">
-                <img  className="img" src= {'assets/w5.jpeg'} className="img"/>
+                <img  className="img" src= {'images/carouselOne.jpg'} className="img"/>
               </div>
               <div className="wdt">
-                <img style={{"height":"40px"}}   src= {'assets/w3.jpg'} className="img"/>
+                <img style={{"height":"40px"}}   src= {'images/carouselTwo.jpg'} className="img"/>
               </div>
               <div className="wdt">
-                <img  className="img" src= {'assets/w2.jpg'} className="img"/>
+                <img  className="img" src= {'images/carouselThree.jpg'} className="img"/>
               </div>
-              <div className="wdt">
-                <img  className="img" src= {'assets/w2.jpg'} className="img"/>
-              </div >
-              <div className="wdt">
-                <img  className="img" src= {'assets/w2.jpg'} className="img"/>
-              </div>
-              <div className="wdt">
-                <img  className="img" src= {'assets/w2.jpg'} className="img"/>
-              </div>
-          </Slider>
+            </Slider>
         </div>
         );
       }
