@@ -4,8 +4,12 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import './ImageSlider.css';
 
+import carouselOne from './../images/CarouselOne.jpg'
+import carouselTwo from './../images/CarouselTwo.jpg'
+import carouselThree from './../images/CarouselThree.jpg'
+
 const settings = {
-  dots: false,
+  dots: true,
   infinite: true,
   autoplay: true,
   autoplaySpeed: 6000,
@@ -19,13 +23,13 @@ export default function ImageSlider() {
           <div className="sliderContainer">
             <Slider {...settings} >
               <div className="wdt">
-                <img  src= {'assets/carouselOne.jpg'} className="img" alt="Surusm retreat 2019"/>
+                <img  src= {carouselOne} className="img" alt="Surusm retreat 2019"/>
               </div>
               <div className="wdt">
-                <img src= {'assets/carouselTwo.jpg'} className="img" alt="Sursum littles gathered around Loyola Marymount's dedicated Sursum tree"/>
+                <img src= {carouselTwo} className="img" alt="Sursum littles gathered around Loyola Marymount's dedicated Sursum tree"/>
               </div>
               <div className="wdt">
-                <img src= {'assets/carouselThree.jpg'} className="img" alt="Sursum members serving at St. Francis"/>
+                <img src= {carouselThree} className="img" alt="Sursum members serving at St. Francis"/>
               </div>
             </Slider>
         </div>
