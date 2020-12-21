@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 import "./Navbar.css";
 
 import { FaAlignRight } from "react-icons/fa";
-import sursumLogo from "../images/sursumShield.png";
+import sursumLogo from "../images/sursumLogo.png";
 
 function Navbar(props) {
   const [expanded, setExpanded] = useState(false);
