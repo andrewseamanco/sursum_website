@@ -33,6 +33,11 @@ function Navbar(props) {
                 About
               </a>
             </li>
+            <li className="NavbarListItem">
+              <a className="InlineLink" href="/placements">
+                Placements
+              </a>
+            </li>
           </ul>
         </div>{" "}
         {/*End navbar*/}

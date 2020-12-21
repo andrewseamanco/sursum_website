@@ -1,10 +1,11 @@
 import React from 'react'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
-import AboutSursum from './Pages/AboutSursum'
 import Navbar from './Components/Navbar'
-import ImageSlider from './Components/ImageSlider'
 import './App.css';
+
+import AboutSursum from './Pages/AboutSursum'
 import Homepage from './Pages/Homepage'
+import Placements from './Pages/Placements'
 
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
       </Route>
       <Route path='/about'>
         <AboutSursum/>
+      </Route>
+      <Route path='/placements'>
+        <Placements />
       </Route>
     </Router>
     </div>
