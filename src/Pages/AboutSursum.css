@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.aboutDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px 0 100px
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutText {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionHeader {
+  display: flex;
+  font-weight: bolder;
+  justify-content: center;
+  margin: 5% 0 5% 0;
+  font-family: 'Josefin Sans', cursive;
+  text-decoration: underline;
+  font-size: 3em;
+}
+
+.sectionSubheader {
+  margin: 2% 0 2% 0;
+}
+
+.giraffeImage {
+  width: 2000px
+}
+
+.sectionText {
+  display: flex;
+  justify-content: center;
+  text-align: center
+}
