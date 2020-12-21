@@ -1,8 +1,10 @@
 import React from 'react'
 import {BrowserRouter as Router} from 'react-router-dom'
+import AboutSursum from './Pages/AboutSursum'
 import Navbar from './Components/Navbar'
 import ImageSlider from './Components/ImageSlider'
 import './App.css';
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
     <Router>
       <Navbar />
       <ImageSlider />
+      <AboutSursum />
     </Router>
     </div>
   );
