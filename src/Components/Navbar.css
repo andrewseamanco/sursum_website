@@ -3,7 +3,7 @@
   width: 100%;
   position: fixed;
   margin-bottom: auto;
-  padding:10px;
+  padding:5px;
   top: 0;
   background-color: white;
   z-index: 1;
@@ -12,6 +12,8 @@
 #NavbarLogo{
   float:left;
   max-height: 50px;
+  padding:none;
+  margin:none;
 }
 
 #ExpandNavbar{
@@ -32,6 +34,7 @@
   height: 0;
   overflow: hidden;
   text-align: center;
+  padding-top:10px;
 }
 
 
@@ -40,7 +43,8 @@
 }
 
 .NavbarListItem{
-  padding: 10px;
+  padding-right: 20px;
+  padding-top: 10px;
 }
 
 .InlineLink{

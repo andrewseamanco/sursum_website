@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 import "./Navbar.css";
 
 import { FaAlignRight } from "react-icons/fa";
-import sursumLogo from "../images/sursumShield.png";
+import logo from './../images/sursumLogo.png'
 
 function Navbar(props) {
   const [expanded, setExpanded] = useState(false);
@@ -12,10 +12,12 @@ function Navbar(props) {
     setExpanded(!expanded);
   };
 
+
+
   return (
     <div>
       <div id="Header">
-        <img src={sursumLogo} id="NavbarLogo" alt="Logo" href="/" />
+        <img src={logo} id="NavbarLogo" alt="Logo" href="/" />
         <div id="Navbar">
           <button onClick={() => toggle()} id="ExpandNavbar">
             <FaAlignRight />
