@@ -1,11 +1,11 @@
 .wdt {
     width: 100% !important;
+    height: auto;
 }
 
 .img {
   height: 20% !important;
   width: 100%;
-
 }
 
 .imgdetails {
@@ -28,4 +28,5 @@
 .sliderContainer {
   padding: 0;
   margin: 0;
+  height: 100%;
 }
