@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function AboutSursum() {
   return (
+    //
     <div>
-      //insert image about
       <img src="assets/giraffeSilhoette" alt='' />
       <h3>What is Sursum Corda?</h3>
       <p> Founded in 1992, Sursum Corda is one of Loyola Marymout University's four
