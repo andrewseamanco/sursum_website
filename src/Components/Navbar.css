@@ -6,12 +6,12 @@
   padding:10px;
   top: 0;
   background-color: white;
+  z-index: 1;
 }
 
 #NavbarLogo{
   float:left;
-  max-width:5%;
-  max-height: 5%;
+  max-height: 50px;
 }
 
 #ExpandNavbar{
@@ -37,7 +37,6 @@
 
 .show-nav{
   height: 140px;
-  background-color: white;
 }
 
 .NavbarListItem{
