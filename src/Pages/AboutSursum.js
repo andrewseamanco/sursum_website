@@ -17,5 +17,6 @@ export default function AboutSursum() {
       primarily to off-campus service, Sursums are committed to establishing
       meaningful bonds with the greater Los Angeles community as well as with
       each other. </p>
+    </div>
   )
 }
