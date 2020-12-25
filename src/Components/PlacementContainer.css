@@ -1,0 +1,48 @@
+.ImageContainer {
+  /* overflow: hidden; */
+  margin-bottom: 50px;
+  display: inline-block;
+  padding:25px;
+  margin-left: 15;
+  margin-right:15;
+  animation-timing-function: ease-in;
+  animation-name: fade;
+  text-align: center;
+  /* height:30vh; */
+  /* animation-duration: 0.7s; */
+}
+
+@keyframes fade{
+  0% { 
+    opacity: 0;
+  }
+}
+
+.ImageContainer:hover{
+  transform: scale(1.05);
+  background-color: lightgray;
+  font-weight:1000;
+  padding:20px;
+}
+
+@media screen and (min-width: 600px) {
+  .Image {
+    max-width: 48%;
+    max-height: 100%;
+    padding-left: 5px;
+    padding-right:5px;
+  }
+  .SummaryContainer {
+    margin-left: 10px;
+  }
+  .ImageHeader {
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .Image {
+    height: 0;
+
+  }
+}
