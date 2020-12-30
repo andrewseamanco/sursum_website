@@ -74,68 +74,6 @@ export default function Placements() {
         style={{ listStyleType: "none", display: "block", padding: "0" }}
       >
         {PlacementComponentList}
-        {/* <li>
-          <PlacementContainer
-            name="St. Francis Food Pantry"
-            side="left"
-            imgName="FrancisCandid.png"
-            alt={"Sursums at Saint Francis Food Pantry"}
-            body={descriptions.francis}
-            style={{ "animation-duration": "0.5s" }}
-          />
-        </li>
-        <li>
-          <PlacementContainer
-            name="Feed the Hungry"
-            side="right"
-            imgName="FeedTheHungry.jpg"
-            alt={"Feed the hungry event"}
-            body={descriptions.feedTheHungry}
-          />
-        </li>
-        <li>
-          <PlacementContainer
-            name={`St. Josephs Food Pantry`}
-            side="left"
-            alt={`St. Josephs Logo`}
-            imgURL={`https://live.staticflickr.com/8249/8508070090_61bf36275a_b.jpg`}
-            body={descriptions.josephs}
-          />
-        </li>
-        <li>
-          <PlacementContainer
-            name={`Boy's and Girl's Club of Mar Vista Gardens`}
-            side="right"
-            alt={`Boys and Girls Club Logo`}
-            body={descriptions.boysAndGirls}
-            imgURL={`https://media.timesfreepress.com/img/photos/2018/12/26/18268641101554008706504061607045346114644042n2705318443_t1070_h9123187ba014f7fa7da7a949ade9082480e1fded.jpg`}
-          />
-        </li>
-        <li>
-          <PlacementContainer
-            name={`Good Shepherd Shelter`}
-            side="left"
-            alt={`Good Shepherd Shelter Logo`}
-            imgURL={`https://catholiccharitiesla.org/wp-content/uploads/GSS-Logo_New_2020_800px-300x259.jpg`}
-            body={descriptions.goodShepherd}
-          />
-        </li>
-        <li>
-          <PlacementContainer
-            name={`Guadalupe Homeless Proejct (GHP)`}
-            side="right"
-            alt={`GHP logo`}
-            body={descriptions.guadalupeHomeless}
-          />
-        </li>
-        <li>
-          <PlacementContainer
-            name="Beach Cleanup"
-            side="left"
-            alt={"Beach photo with Sursums"}
-            body={descriptions.beachCleanup}
-          /> 
-        </li>*/}
       </ul>
     </React.Fragment>
   );
