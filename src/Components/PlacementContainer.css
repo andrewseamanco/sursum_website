@@ -6,19 +6,24 @@
   margin-left: 15;
   margin-right:15;
   animation-timing-function: ease-in;
-  animation-name: fade;
+  animation-name: slideup ;
   text-align: center;
-  /* height:30vh; */
-  /* animation-duration: 0.7s; */
+  /* animation-duration: 0.75s; */
 }
 
-@keyframes fade{
+@keyframes slideup{
   0% { 
     opacity: 0;
+    margin-top:50%
+  }
+  100%{
+    opacity: 100;
+    margin-top: 0;
   }
 }
 
 .ImageContainer:hover{
+  transition-duration: 0.75s;
   transform: scale(1.05);
   background-color: lightgray;
   font-weight:1000;
