@@ -2,31 +2,6 @@ import React from "react";
 
 import PlacementContainer from "../Components/PlacementContainer";
 
-/*
-Placements
-Off campus 
-Feed the Hungry -- got it
-St. Josephs
-St. Francis --> picture :)
-
-Guadalpue Homeless Project -- got it
-Good Shepard Shelter
-Boys and Girls Club -- got it
-
-Beach Clean ups
-*/
-
-/*
-
-Switching to lazy loading
-Feed the hungry:
-Saint Josephs
-Saint Francis
-
-Guadalups Homeless project
-
-*/
-
 export default function Placements() {
   //Queue that will sequentially load elements
   //  in this case, the placements for a nice animation
