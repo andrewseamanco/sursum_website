@@ -1,13 +1,23 @@
-import React from 'react'
-import ImageSlider from './../Components/ImageSlider'
+import React, { useEffect, useState } from 'react'
+import './Homepage.css';
+import AboutPageLinks from './../Components/AboutPageLinks'
+import AboutSursum from './../Components/AboutSursum'
+import AboutSursumSlider from './../Components/AboutSursumSlider'
+import Placements from './../Components/Placements'
+import Footer from './../Components/Footer'
 
 
 
 function Homepage(){
+
   return (
-  <React.Fragment>
-    <ImageSlider/>
-  </React.Fragment>
+  <div className="slider">
+    <AboutSursumSlider/>
+    <AboutSursum />
+    <Placements />
+    <AboutPageLinks />
+    <Footer />
+  </div>
   )
 }
 

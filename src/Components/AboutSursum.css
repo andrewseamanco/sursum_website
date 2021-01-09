@@ -1,0 +1,97 @@
+.sursumLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutDiv {
+  font-family: 'Avenir', sans-serif;
+  padding: 5% 5% 5% 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sursumLogo {
+  padding: 5% 5% 5% 5%;
+  width: 50%;
+}
+
+.title-1 {
+  color: white;
+  padding-top: 10%;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.title-2 {
+  text-align: left;
+  font-size: 2em;
+}
+
+.creed {
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+.firstLine {
+  margin-left: 2%;
+}
+
+.lineOfCreed {
+  margin-left: 8%;
+}
+
+h4 {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.aboutInformation {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 50%;
+}
+
+.info-paragraph {
+  font-size: 1.5em;
+}
+
+hr {
+  background-color: #22AAA1;
+  width: 20%;
+  height: 10px !important;
+  margin-bottom: 40px !important;
+}
+
+@media(max-width: 1300px) {
+  .creed {
+    font-size: 1.25em;
+  }
+
+  .info-paragraph {
+    font-size: 1.25em;
+  }
+
+  .aboutDiv {
+    flex-direction: column;
+    padding: 0 5% 5% 5%;
+  }
+
+  .sursumLogo {
+    padding: 10% 30% 0% 15%;
+    width: 100%;
+  }
+
+  .aboutInformation {
+    width: 100%;
+  }
+
+  .title-1 {
+    padding-top: 0;
+  }
+}

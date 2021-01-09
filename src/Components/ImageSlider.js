@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -8,20 +8,11 @@ import carouselOne from './../images/CarouselOne.jpg'
 import carouselTwo from './../images/CarouselTwo.jpg'
 import carouselThree from './../images/CarouselThree.jpg'
 
-const settings = {
-  dots: true,
-  infinite: true,
-  autoplay: true,
-  autoplaySpeed: 6000,
-  speed: 800,
-  slidesToShow: 2,
-  slidesToScroll: 1
-};
+export default function ImageSlider(props) {
 
-export default function ImageSlider() {
   return (
           <div className="sliderContainer">
-            <Slider {...settings} >
+            <Slider {...props.settings} >
               <div className="wdt">
                 <img  src= {carouselOne} className="img" alt="Surusm retreat 2019"/>
               </div>

@@ -1,0 +1,7 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3% 7% 3% 7%;
+  background-color: #22AAA1;
+}
