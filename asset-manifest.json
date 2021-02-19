@@ -7,7 +7,7 @@
   "static/js/1.ca38dcaa.chunk.js.map": "/sursum_website/static/js/1.ca38dcaa.chunk.js.map",
   "runtime~main.js": "/sursum_website/static/js/runtime~main.77f74f31.js",
   "runtime~main.js.map": "/sursum_website/static/js/runtime~main.77f74f31.js.map",
-  "static/media/slick-theme.css": "/sursum_website/static/media/slick.d41f55a7.ttf",
+  "static/media/slick-theme.css": "/sursum_website/static/media/slick.f97e3bbf.svg",
   "static/media/sursumLogo.png": "/sursum_website/static/media/sursumLogo.314bd3eb.png",
   "static/media/CarouselOne.jpg": "/sursum_website/static/media/CarouselOne.96f55fb5.jpg",
   "static/media/CarouselTwo.jpg": "/sursum_website/static/media/CarouselTwo.c7057183.jpg",
@@ -42,6 +42,6 @@
   "static/css/main.29e4ade4.chunk.css.map": "/sursum_website/static/css/main.29e4ade4.chunk.css.map",
   "static/css/1.6137a0f8.chunk.css.map": "/sursum_website/static/css/1.6137a0f8.chunk.css.map",
   "index.html": "/sursum_website/index.html",
-  "precache-manifest.1fc61eb9754e085f5c4c03b09c2ce49a.js": "/sursum_website/precache-manifest.1fc61eb9754e085f5c4c03b09c2ce49a.js",
+  "precache-manifest.5a03fda7dd3a4950c452dfbe08675eb5.js": "/sursum_website/precache-manifest.5a03fda7dd3a4950c452dfbe08675eb5.js",
   "service-worker.js": "/sursum_website/service-worker.js"
 }
