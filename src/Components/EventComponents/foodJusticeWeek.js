@@ -70,7 +70,7 @@ export default function FoodJusticeWeek(props) {
         thirdImage={tabling}
       />
     }
-    <p className="event-description">Sursum Corda hosts an event every called Food Justice Week (previously known as Hunger Awareness Week).  Food Injustice week
+    <p className="event-description">Sursum Corda hosts an event every year called Food Justice Week (previously known as Hunger Awareness Week).  Food Injustice week
     gives Sursum Corda an opportunity to advocate for the communites most heavily affected
     by issues of food insecurity, host events educating LMU students about food insecurity,
     and raise money for our placements and other foundations which educate or serve communities
