@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "9b50faa52bd8fa420d06",
-    "url": "/sursum_website/static/css/main.6f1d72fb.chunk.css"
+    "revision": "9239071aaeba4e1c8b0c",
+    "url": "/sursum_website/static/css/main.29e4ade4.chunk.css"
   },
   {
-    "revision": "9b50faa52bd8fa420d06",
-    "url": "/sursum_website/static/js/main.9b50faa5.chunk.js"
+    "revision": "9239071aaeba4e1c8b0c",
+    "url": "/sursum_website/static/js/main.9239071a.chunk.js"
   },
   {
-    "revision": "b130c0474705e44c9d00",
-    "url": "/sursum_website/static/css/1.f18be1f8.chunk.css"
+    "revision": "ca38dcaac61d103f53eb",
+    "url": "/sursum_website/static/css/1.6137a0f8.chunk.css"
   },
   {
-    "revision": "b130c0474705e44c9d00",
-    "url": "/sursum_website/static/js/1.b130c047.chunk.js"
+    "revision": "ca38dcaac61d103f53eb",
+    "url": "/sursum_website/static/js/1.ca38dcaa.chunk.js"
   },
   {
     "revision": "77f74f31e5fa8087a05a",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/sursum_website/static/media/SursumShield.a2dc8c5f.png"
   },
   {
-    "revision": "4d1c5f878be833f66e76e8327e184392",
+    "revision": "cdf9b9b8e59665a581e2cd61e77c23c0",
     "url": "/sursum_website/index.html"
   }
 ];
