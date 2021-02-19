@@ -25,17 +25,22 @@ function Navbar(props) {
           <ul className={expanded ? "NavbarList show-nav" : "NavbarList"}>
             <li className="NavbarListItem">
               <a className="InlineLink" href="/">
-                Home
-              </a>
-            </li>
-            <li className="NavbarListItem">
-              <a className="InlineLink" href="/about">
                 About
               </a>
             </li>
             <li className="NavbarListItem">
-              <a className="InlineLink" href="/placements">
-                Placements
+              <a className="InlineLink" href="/events">
+                Events
+              </a>
+            </li>
+            <li className="NavbarListItem">
+              <a className="InlineLink" href="/join">
+                Join
+              </a>
+            </li>
+            <li className="NavbarListItem">
+              <a className="InlineLink" href="/contact">
+                Contact
               </a>
             </li>
           </ul>

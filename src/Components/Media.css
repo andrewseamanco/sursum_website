@@ -1,0 +1,27 @@
+.mediaDiv {
+  background-color: #303633;
+  padding: 5% 0 5% 0;
+
+}
+
+ul {
+  padding: 0;
+}
+
+li.mediaLi {
+  font-size: 2.5em;
+  text-align: center;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+a.mediaLink {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+a.mediaLink:hover {
+  color: gray;
+  text-decoration: none;
+}

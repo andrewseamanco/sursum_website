@@ -4,23 +4,19 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import './ImageSlider.css';
 
-import carouselOne from './../images/CarouselOne.jpg'
-import carouselTwo from './../images/CarouselTwo.jpg'
-import carouselThree from './../images/CarouselThree.jpg'
-
 export default function ImageSlider(props) {
 
   return (
           <div className="sliderContainer">
             <Slider {...props.settings} >
               <div className="wdt">
-                <img  src= {carouselOne} className="img" alt="Surusm retreat 2019"/>
+                <img  src= {props.firstImage} className="img" alt="Surusm retreat 2019"/>
               </div>
               <div className="wdt">
-                <img src= {carouselTwo} className="img" alt="Sursum littles gathered around Loyola Marymount's dedicated Sursum tree"/>
+                <img src= {props.secondImage} className="img" alt="Sursum littles gathered around Loyola Marymount's dedicated Sursum tree"/>
               </div>
               <div className="wdt">
-                <img src= {carouselThree} className="img" alt="Sursum members serving at St. Francis"/>
+                <img src= {props.thirdImage} className="img" alt="Sursum members serving at St. Francis"/>
               </div>
             </Slider>
         </div>

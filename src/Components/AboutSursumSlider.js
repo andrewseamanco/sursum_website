@@ -3,7 +3,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ImageSlider from "./ImageSlider.js";
 import './ImageSlider.css';
-
 import carouselOne from './../images/CarouselOne.jpg'
 import carouselTwo from './../images/CarouselTwo.jpg'
 import carouselThree from './../images/CarouselThree.jpg'
@@ -58,9 +57,15 @@ export default function AboutSursumSlider(props) {
       dimensions.width > 800 ?
       <ImageSlider
         settings={twoSlideSettings}
+        firstImage={carouselOne}
+        secondImage={carouselTwo}
+        thirdImage={carouselThree}
       /> :
       <ImageSlider
         settings={oneSlideSettings}
+        firstImage={carouselOne}
+        secondImage={carouselTwo}
+        thirdImage={carouselThree}
       />
     }
     </div>

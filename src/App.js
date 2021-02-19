@@ -3,10 +3,10 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Navbar from './Components/Navbar'
 import './App.css';
 
-import AboutSursum from './Pages/AboutSursum'
 import Homepage from './Pages/Homepage'
-import Placements from './Pages/Placements'
-
+import Events from './Pages/Events'
+import Join from './Pages/Join'
+import Contact from './Pages/Contact'
 
 function App() {
   return (
@@ -16,11 +16,14 @@ function App() {
       <Route exact path='/'>
         <Homepage />
       </Route>
-      <Route path='/about'>
-        <AboutSursum/>
+      <Route path='/events'>
+        <Events />
       </Route>
-      <Route path='/placements'>
-        <Placements />
+      <Route path='/join'>
+        <Join />
+      </Route>
+      <Route path='/contact'>
+        <Contact />
       </Route>
     </Router>
     </div>

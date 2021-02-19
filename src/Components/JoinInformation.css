@@ -1,0 +1,143 @@
+.sursumLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.joinContent {
+  color: white;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.joinDiv {
+  color: white;
+  background-color: #303633;
+  font-family: 'Avenir', sans-serif;
+  padding: 5% 5% 5% 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.joinTitle {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  padding: 5% 0 5% 0;
+}
+
+
+.sursumLogo {
+  padding: 5% 5% 5% 5%;
+}
+
+.title-1 {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.creed {
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+.firstLine {
+  margin-left: 2%;
+}
+
+.lineOfCreed {
+  margin-left: 8%;
+}
+
+h4 {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.joinInformation {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 50%;
+}
+
+.joinParagraph {
+  font-size: 1.5em;
+}
+
+hr {
+  background-color: #22AAA1;
+  width: 20%;
+  height: 10px !important;
+  margin-bottom: 70px !important;
+}
+
+.littles {
+  padding-top: 0%;
+}
+
+.little-retreat {
+  padding-top:0%;
+}
+
+.key-party {
+  padding-top: 0%;
+}
+
+
+@media(min-width: 1200px) {
+
+  .groupImage {
+    content:url("../images/heartHands.jpg");
+  }
+
+  .recruitmentImage {
+    content:url("../images/broomball.jpg");
+  }
+
+  .croppedShieldImage {
+    content:url("../images/forestShield.jpg");
+  }
+
+  .join-segment {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .image {
+    width: 50%;
+  }
+
+  .join-text {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25em;
+    padding: 5% 5% 0 5%
+  }
+
+  .littles {
+    padding-top: 10%;
+  }
+
+  .little-retreat {
+    padding-top:35%;
+  }
+
+  .key-party {
+    padding-top: 30%;
+  }
+
+}

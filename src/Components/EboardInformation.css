@@ -1,0 +1,47 @@
+.eboardMembers {
+  background-color: #FFBF00;
+  width: 100%;
+  height: 100%;
+  padding: 8% 3% 5% 3%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.rowsOfFour {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.rowsOfTwo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.eboardPicture {
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.eboardProfile {
+  color: white;
+  font-family: 'Avenir';
+  font-size: 1.5em;
+  padding: 2% 5% 2% 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+@media(min-width: 1000px) {
+  .rowsOfTwo {
+    flex-direction: row;
+  }
+}

@@ -9,22 +9,22 @@ export default function AboutPageLinks() {
   return (
     <div className="links">
       <div className="container">
-        <img src={forestShield} />
+        <img src={forestShield} alt="Sursum shield in the forest"/>
         <p className="link">About Us</p>
         <a href="/"> <button className="btn">Learn More</button> </a>
       </div>
       <div className="container">
-        <img src={broomball} />
+        <img src={broomball} alt="Two Sursums smiling after a broomball game"/>
         <p className="link">Sursum Events</p>
         <a href="/events"> <button className="btn">Learn More</button> </a>
       </div>
       <div className="container">
-        <img src={beachPhoto} />
+        <img src={beachPhoto} alt="A group of Sursums on the beach"/>
         <p className="link">Join Sursum</p>
         <a href="join"> <button className="btn">Learn More</button> </a>
       </div>
       <div className="container">
-        <img src={heartHands} />
+        <img src={heartHands} alt="Three Sursums holding hands in the shape of a heart"/>
         <p className="link">Contact Us</p>
         <a href="contact"> <button className="btn">Learn More</button> </a>
       </div>

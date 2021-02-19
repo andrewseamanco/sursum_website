@@ -2,6 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 50%;
+}
+
+.aboutContent {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
 }
 
 .aboutDiv {
@@ -9,17 +16,17 @@
   padding: 5% 5% 5% 5%;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
+
+
 
 .sursumLogo {
   padding: 5% 5% 5% 5%;
-  width: 50%;
 }
 
 .title-1 {
   color: white;
-  padding-top: 10%;
   text-align: center;
   font-size: 3em;
   font-weight: bold;
@@ -65,21 +72,23 @@ hr {
   background-color: #22AAA1;
   width: 20%;
   height: 10px !important;
-  margin-bottom: 40px !important;
+  margin-bottom: 70px !important;
 }
 
-@media(max-width: 1300px) {
+@media(max-width: 1200px) {
+
+  .aboutContent {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
   .creed {
     font-size: 1.25em;
   }
 
   .info-paragraph {
     font-size: 1.25em;
-  }
-
-  .aboutDiv {
-    flex-direction: column;
-    padding: 0 5% 5% 5%;
   }
 
   .sursumLogo {
