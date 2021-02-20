@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9239071aaeba4e1c8b0c",
+    "revision": "037cca03ff30955ff00f",
     "url": "/sursum_website/static/css/main.29e4ade4.chunk.css"
   },
   {
-    "revision": "9239071aaeba4e1c8b0c",
-    "url": "/sursum_website/static/js/main.9239071a.chunk.js"
+    "revision": "037cca03ff30955ff00f",
+    "url": "/sursum_website/static/js/main.037cca03.chunk.js"
   },
   {
     "revision": "ca38dcaac61d103f53eb",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/sursum_website/static/media/SursumShield.a2dc8c5f.png"
   },
   {
-    "revision": "cdf9b9b8e59665a581e2cd61e77c23c0",
+    "revision": "46dd1d2b6436f4c179fa76c13f39cbf0",
     "url": "/sursum_website/index.html"
   }
 ];
