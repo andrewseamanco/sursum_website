@@ -5,9 +5,7 @@ import { FaFacebook, FaInstagram, FaEnvelope } from "react-icons/fa";
 export default function Media() {
   return (
     <div className="mediaDiv">
-      <p className="title-1">
-        <u>Keep the Conversation Going!</u>
-      </p>
+      <p className="title-1">Keep the Conversation Going!</p>
       <ul>
         <li className="mediaLi">
           <a
