@@ -1,14 +1,15 @@
-import React from "react";
-import president from "./../images/eboard/AvaTotah.jpg";
-import vicePresident from "./../images/eboard/IsabelaCastroPeñate.JPG";
-import secretary from "./../images/eboard/AmillianaCox.JPG";
-import service from "./../images/eboard/HalleVogelpohl.jpg";
-import missionAndSocialJustice from "./../images/eboard/ConnorOrdonez.JPG";
-import spirituality from "./../images/eboard/SanaiBrooks.JPG";
-import communityEngagement from "./../images/eboard/AndrewSeaman.jpg";
-import finance from "./../images/eboard/IanGreen.jpg";
+import React from 'react'
+import president from './../images/eboard/AvaTotah.jpg'
+import vicePresident from './../images/eboard/IsabelaCastroPeñate.JPG'
+import secretary from './../images/eboard/AmillianaCox.JPG'
+import service from './../images/eboard/HalleVogelpohl.jpg'
+import missionAndSocialJustice from './../images/eboard/ConnorOrdonez.JPG'
+import spirituality from './../images/eboard/SanaiBrooks.JPG'
+import communityEngagement from './../images/eboard/AndrewSeaman.jpg'
+import finance from './../images/eboard/IanGreen.jpg'
 
-import "./EboardInformation.css";
+
+import './EboardInformation.css'
 
 export default function EboardInformation() {
   return (
@@ -46,10 +47,7 @@ export default function EboardInformation() {
             <div className="eboardProfile">
               <img className="eboardPicture" src={missionAndSocialJustice} />
               <p className="eboardName"> Connor Ordonez </p>
-              <p className="eboardPosition">
-                {" "}
-                Vice President of Mission and Social Justice{" "}
-              </p>
+              <p className="eboardPosition"> Vice President of Mission and Social Justice </p>
             </div>
             <div className="eboardProfile">
               <img className="eboardPicture" src={spirituality} />
@@ -61,10 +59,7 @@ export default function EboardInformation() {
             <div className="eboardProfile">
               <img className="eboardPicture" src={communityEngagement} />
               <p className="eboardName"> Andrew Seaman </p>
-              <p className="eboardPosition">
-                {" "}
-                Vice President of Community Engagement{" "}
-              </p>
+              <p className="eboardPosition"> Vice President of Community Engagement </p>
             </div>
             <div className="eboardProfile">
               <img className="eboardPicture" src={finance} />
@@ -75,5 +70,5 @@ export default function EboardInformation() {
         </div>
       </div>
     </div>
-  );
+  )
 }
