@@ -1,5 +1,5 @@
 .eboardMembers {
-  background-color: #FFBF00;
+  background-color: #ffbf00;
   width: 100%;
   height: 100%;
   padding: 8% 3% 5% 3%;
@@ -19,7 +19,6 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-
 }
 
 .eboardPicture {
@@ -29,18 +28,16 @@
 
 .eboardProfile {
   color: white;
-  font-family: 'Avenir';
+  font-family: "Avenir";
   font-size: 1.5em;
   padding: 2% 5% 2% 5%;
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  justify-content: center;
   margin-bottom: 40px;
 }
 
-@media(min-width: 1000px) {
+@media (min-width: 1000px) {
   .rowsOfTwo {
     flex-direction: row;
   }
