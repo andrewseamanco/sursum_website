@@ -3,7 +3,7 @@ a.icon {
 }
 
 a.footerLink:hover {
-  color: gray;
+  color: white;
   text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ li.footerLi {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 2% 7% 3% 2%;
-  background-color: #22AAA1;
+  background-color: #22aaa1;
 }
 
 .title {
@@ -36,8 +36,8 @@ li.footerLi {
   font-weight: bold;
 }
 
-@media(max-width: 900px){
-  .footer{
+@media (max-width: 900px) {
+  .footer {
     flex-direction: column;
     justify-content: baseline;
     padding-left: 15%;
