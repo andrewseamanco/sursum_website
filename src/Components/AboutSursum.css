@@ -12,14 +12,12 @@
 }
 
 .aboutDiv {
-  font-family: 'Avenir', sans-serif;
+  font-family: "Avenir", sans-serif;
   padding: 5% 5% 5% 5%;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-
-
 
 .sursumLogo {
   padding: 5% 5% 5% 5%;
@@ -69,14 +67,13 @@ h4 {
 }
 
 hr {
-  background-color: #22AAA1;
+  background-color: #22aaa1;
   width: 20%;
   height: 10px !important;
   margin-bottom: 70px !important;
 }
 
-@media(max-width: 1200px) {
-
+@media (max-width: 1200px) {
   .aboutContent {
     padding-top: 0;
     display: flex;
